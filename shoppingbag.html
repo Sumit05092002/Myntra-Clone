@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .navigation{
+        display:flex;
+        justify-content: space-between;
+    }
+    .secure{
+        display:flex;
+        align-items: center;
+    }
+    .para{
+        display:flex;
+        align-items: center;
+    }
+    .image{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mybutton{
+        border: 1px solid red;
+        color: rgb(215, 118, 134);
+        padding: 5px;
+        background-color: white;
+    }
+    .mybutton:hover{
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <div class="logo">
+                <img src="https://deshicompanies.com/wp-content/uploads/2021/07/myntra-logo-768x768.jpg" alt="myntra logo" srcset="" height="100px" width="100px">
+            </div>
+            <div class="para">
+                <p>BAG-----ADDRESS------PAYMENT</p>
+            </div>
+            <div class="secure">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.YK55UajGYPuRrquZA1e3CQHaHm&pid=Api&P=0&h=180" alt="" srcset="" height="20px" width="20px">
+                <p>100% secure</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="image">
+            <img src="https://constant.myntassets.com/checkout/assets/img/empty-bag.png" class="image-base-imgResponsive" alt="image" style="width: 300px" height="300px">
+            <p>Hey it feels so light!</p>
+            <p>There is nothing in your bag.Let's add some items.</p>
+            <br>
+            <br>
+            <a href="http://127.0.0.1:5500/wishlist.html">
+                <button class="mybutton">  ADD ITEMS FROM WISHLIST</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
